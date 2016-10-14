@@ -1,0 +1,8 @@
+#include <iostream>
+#include <unistd.h>
+int main(void){
+	int a;
+	std::cout<<"The PID of this process is:  "<< getpid() <<std::endl;
+	std::cin >> a;
+	// The following instruction will block the project waiting for an input
+	return 0;
